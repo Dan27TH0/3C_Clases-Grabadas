@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+}
+.navbar {
+    background-color:rgb(138, 107, 98);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar .left-links {
+    display: flex;
+    align-items: center;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: .75rem;
+    font-size: 1.3rem;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    background-color: rgb(255, 255, 255);
+}
+.layout-content {
+    padding-top: .4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+    background-color: rgb(233, 221, 182);
+    border-left: 5px;
+    border-right: 5px;
+    border-top: 0;
+    border-style: solid;
+}
+.titulo{
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.subtitulo{
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.75rem;
+}
+.enlaces{
+    list-style: decimal inside;
+    text-align: center;
+    padding: 0;
+}
+.enlaces li{
+    margin: 10px 0;
+}
+.imagen{
+    text-align: center;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (width <= 1440px){
+    .imagen img{
+        width: 900px;
+    }
+}
+@media (width <= 1024px){
+    .layout-content{
+        padding-top: .4rem;
+        padding-left: 1.9rem;
+        padding-right: 1.9rem;
+        padding-bottom: 1.3rem;
+    }
+    .imagen img{
+        width: 750px;
+    }
+    .footer{
+        padding-top: 5rem;
+    }
+}
+@media (width <= 768px){
+    .navbar .left-links{
+        display: block;
+        padding: 15px;
+    }
+    .left-links a{
+        font-size: 28px;
+    }
+    .layout-content{
+        padding-top: .3rem;
+        padding-left: 1.7rem;
+        padding-right: 1.7rem;
+        padding-bottom: 1.2rem;
+    }
+    .imagen img{
+        width: 600px;
+    }
+    .footer{
+        padding-top: 5rem;
+    }
+
+}
+@media (width <= 425px){
+    .navbar .left-links{
+        display: block;
+        padding: 15px;
+    }
+    .left-links a{
+        font-size: 18px;
+    }
+    .layout-content{
+        padding-top: .2rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-bottom: 1rem;
+    }
+    .imagen img{
+        width: 260px;
+        height: 175px;
+    }
+    .footer{
+        padding-top: 5rem;
+    }
+}
