@@ -189,7 +189,7 @@ body {
         padding-top: 5rem;
     }
     .video-item iframe {
-        width: 90%;
+        width: 75%;
         height: auto;
     }
 }
@@ -215,7 +215,7 @@ body {
         font-size: 18px;
     }
     .video-item iframe {
-        width: 90%;
+        width: 75%;
         height: auto;
     }
 }
