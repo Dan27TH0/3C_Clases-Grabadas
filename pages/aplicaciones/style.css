@@ -157,6 +157,8 @@ body {
 
 /* Media Queries */
 
+/* Media Queries */
+
 @media (max-width: 1024px) {
     .video-grid {
         display: block;
@@ -187,7 +189,7 @@ body {
         padding-top: 5rem;
     }
     .video-item iframe {
-        width: 100%;
+        width: 90%;
         height: auto;
     }
 }
@@ -213,11 +215,7 @@ body {
         font-size: 18px;
     }
     .video-item iframe {
-        width: 100%;
+        width: 90%;
         height: auto;
     }
-    .footer {
-        padding-top: 3rem;
-    }
 }
-
