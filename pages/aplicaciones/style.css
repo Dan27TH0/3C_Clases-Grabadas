@@ -174,7 +174,7 @@ body {
         padding-top: 5rem;
     }
 }
-@media (width <= 425px){
+@media (max-width: 425px){
     .navbar{
         padding: 5px 10px;
     }
@@ -188,8 +188,14 @@ body {
     .titulo{
         font-size: 25px;
     }
-    .video-grid {
+    .container{
         display: grid;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .video-grid {
+        display: flex;
+        flex-direction: column;
     }
     
     .video-item iframe{
